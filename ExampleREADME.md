@@ -1,5 +1,7 @@
-# weather
+# weather_app
   ![Badge for GitHub](https://img.shields.io/github/languages/top/brandonfordd/weather_app?style=flat&logo=appveyor) 
+
+  ![Badge for License](https://img.shields.io/badge/license--cc--by--sa--4.0--brightgreen)
   
   
   ## Description 
@@ -9,8 +11,6 @@
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
-  * [Tests](#tests)
   * [License](#license)
   
   ## Installation
@@ -23,16 +23,11 @@
    
   none
   
-  ## Tests
-  
-  
-  none
-  
   ## License
 
-  ![badge](https://img.shields.io/badge/license-afl-3.0-brightgreen)<br />
-  
-  afl-3.0
+  ![Badge](https://img.shields.io/badge/license-cc--by--sa--4.0-brightgreen)<br />
+
+  cc--by--sa--4.0
   
   ---
   
