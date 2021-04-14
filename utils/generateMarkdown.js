@@ -150,12 +150,12 @@ function generateMarkdown(userResponses, userInfo) {
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;
 
-  // If GitHub email is not null, add to Developer section
-  if (userInfo.email !== null) {
+  // If GitHub email is not blank, add to Developer section
+  if (userResponses.email !== "") {
   
   draftDeveloper +=
   `
-  Email: ${userInfo.email}
+  Email: ${userResponses.email}
   `};
 
  // Add developer section to markdown

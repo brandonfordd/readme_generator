@@ -1,7 +1,7 @@
 
-  # dwadaw
+  # dwad
 
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/brandonfordd/awdaw?style=flat&logo=appveyor) ![Badge](https://img.shields.io/badge/license-afl--3.0-brightgreen)<br />
+  ![Badge for GitHub](https://img.shields.io/github/languages/top/brandonfordd/dwada?style=flat&logo=appveyor) ![Badge](https://img.shields.io/badge/license-afl--3.0-brightgreen)<br />
 
 
   
@@ -15,17 +15,17 @@
   ## Installation
   
   
-  dawdw
+  wadaw
   
   ## Usage 
   
    
-  adwadwa
+  wdwa
   
   ## Tests
   
   
-  dwadaw
+  awdwa
   
   
   ## License

@@ -99,6 +99,12 @@ const questions = [
         message: 'Provide tests for project, and explain how to test (if necessary).',
         // Validation not required if question is optional
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Do you want to provide an email?.',
+        // Validation not required if question is optional
+    },
 ];
 
 // TODO: Create a function to write README file. changed function to async so it can be runned only when keyword within is called
