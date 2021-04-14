@@ -40,11 +40,11 @@ function generateMarkdown(userResponses, userInfo) {
   // Create title and description
   // Generate badges
   let draftMarkdown = 
-  `# ${userResponses.title}
+  `
+  # ${userResponses.title}
+
   ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor) 
 
-  ![Badge for License](https://img.shields.io/badge/license--${userResponses.license}--brightgreen)
-  
   
   ## Description 
   
@@ -106,15 +106,20 @@ function generateMarkdown(userResponses, userInfo) {
   `};
 
   // Connect userResponses to license section
+  
+  if (userResponses.license === 'none') {
+
+  } else {
+
+  
   draftMarkdown +=
   `
   
   ## License
 
   ![Badge](https://img.shields.io/badge/license-${userResponses.license}-brightgreen)<br />
-
-  ${userResponses.license}
-  `;
+  `
+  };
 
   // Questions section
   let draftDeveloper = 
