@@ -43,9 +43,8 @@ function generateMarkdown(userResponses, userInfo) {
   `
   # ${userResponses.title}
 
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor) 
-  `
-  // Connect userResponses to license section
+  ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor) `
+  // added badge for license
   
   if (userResponses.license === 'none') {
 
@@ -53,8 +52,7 @@ function generateMarkdown(userResponses, userInfo) {
 
   
   draftMarkdown +=
-  `
-  ![Badge](https://img.shields.io/badge/license-${userResponses.license}-brightgreen)<br />
+  `![Badge](https://img.shields.io/badge/license-${userResponses.license}-brightgreen)<br />
   `
   };
 
