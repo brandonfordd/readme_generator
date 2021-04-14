@@ -53,6 +53,9 @@ function generateMarkdown(userResponses, userInfo) {
   
   draftMarkdown +=
   `![Badge](https://img.shields.io/badge/license-${userResponses.license}-brightgreen)<br />
+
+
+  
   `
   };
 
