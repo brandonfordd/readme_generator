@@ -44,8 +44,22 @@ function generateMarkdown(userResponses, userInfo) {
   # ${userResponses.title}
 
   ![Badge for GitHub](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repository}?style=flat&logo=appveyor) 
+  `
+  // Connect userResponses to license section
+  
+  if (userResponses.license === 'none') {
+
+  } else {
 
   
+  draftMarkdown +=
+  `
+  ![Badge](https://img.shields.io/badge/license-${userResponses.license}-brightgreen)<br />
+  `
+  };
+
+
+  `
   ## Description 
   
   
