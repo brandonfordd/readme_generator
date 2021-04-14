@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a descirptive readme generator made for a class assignment",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "inquirer": "^6.5.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonfordd/readme_generator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/brandonfordd/readme_generator/issues"
+  },
+  "homepage": "https://github.com/brandonfordd/readme_generator#readme"
 }
