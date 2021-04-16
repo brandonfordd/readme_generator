@@ -59,12 +59,14 @@ function generateMarkdown(userResponses, userInfo) {
   `
   };
 
-
+  draftMarkdown +=
   `
   ## Description 
   
   
   ${userResponses.description}
+
+  
   `
   // Add table of contents data to markdown
   draftMarkdown += draftTable;

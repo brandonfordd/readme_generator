@@ -1,10 +1,15 @@
 
-  # Readme Generator
+  # readme_generaot
 
-  ![Badge for GitHub](https://img.shields.io/github/languages/top/brandonfordd/readme_generator?style=flat&logo=appveyor) ![Badge](https://img.shields.io/badge/license-cc0--1.0-brightgreen)<br />
+  ![Badge for GitHub](https://img.shields.io/github/languages/top/brandonfordd/readme_generator?style=flat&logo=appveyor) ![Badge](https://img.shields.io/badge/license-afl--3.0-brightgreen)<br />
 
 
   
+  
+  ## Description 
+  
+  
+  this is a readme genrator used for node.js 
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -15,27 +20,27 @@
   ## Installation
   
   
-  to install, npm i inquirir
+  inea
   
   ## Usage 
   
    
-  this project was made for UW bootcamp homework
+  dwa
   
   ## Contributing
   
   
-  brandonfordd
+  w
   
   ## Tests
   
   
-  there are currently no test
+  wad
   
   
   ## License
 
-  ![Badge](https://img.shields.io/badge/license-cc0--1.0-brightgreen)<br />
+  ![Badge](https://img.shields.io/badge/license-afl--3.0-brightgreen)<br />
   
   ---
   
@@ -47,5 +52,5 @@
  
   GitHub: [@brandonfordd](https://api.github.com/users/brandonfordd)
   
-  Email: brandonford617@yahoo.com
+  Email: wad
   
