@@ -100,6 +100,8 @@ function generateMarkdown(userResponses, userInfo) {
   
   // Create contribution section
   if (userResponses.contributing !== '') {
+
+  draftMarkdown +=
   `
   
   ## Contributing

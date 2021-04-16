@@ -89,7 +89,7 @@ const questions = [
     {
         type: 'input',
         name: 'contributing',
-        message: 'Explain how users can contribute to your project (if necessary).',
+        message: 'Enter the github users who have contributed to this project.',
         // Validation not required if question is optional
     },
     // Test for project
@@ -102,7 +102,7 @@ const questions = [
     {
         type: 'input',
         name: 'email',
-        message: 'Do you want to provide an email?.',
+        message: 'If you want to provide an email, do so now!',
         // Validation not required if question is optional
     },
 ];
